@@ -73,7 +73,7 @@ const Navbar = () => {
 
         {/* Desktop Links */}
         <div className="hidden md:flex items-center space-x-1">
-          <NavItem to="/">Shop</NavItem>
+          <NavItem to="/">Home</NavItem>
           <NavItem to="/products">All Products</NavItem>
           <NavItem to="/vendors">Vendors</NavItem>
           <NavItem to="/cart">
