@@ -40,7 +40,7 @@ const VendorCarousel = () => {
         {list.map((v) => (
           <Link
             key={v._id}
-            to={`/vendors/${v.user._id}`}
+            to={`/vendors/${v._id}`}
             className="min-w-[220px] sm:min-w-[260px] max-w-[260px] card p-4 flex items-center gap-3 hover:no-underline snap-start group"
           >
             <div className="h-12 w-12 rounded-2xl bg-gradient-to-br from-indigo-50 to-purple-50 flex items-center justify-center overflow-hidden border border-gray-100 shadow-sm">
